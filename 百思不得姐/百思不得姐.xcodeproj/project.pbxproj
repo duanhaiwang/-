@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		865E44241DC0E2C80018D7BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 865E44231DC0E2C80018D7BF /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
+		865E44271DC0E3620018D7BF /* BSMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 865E44261DC0E3620018D7BF /* BSMainTabBarController.m */; settings = {ASSET_TAGS = (); }; };
+		865E442A1DC0E4430018D7BF /* BSMainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 865E44291DC0E4430018D7BF /* BSMainNavigationController.m */; settings = {ASSET_TAGS = (); }; };
+		865E442D1DC0F7360018D7BF /* BSEssenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 865E442C1DC0F7360018D7BF /* BSEssenceController.m */; settings = {ASSET_TAGS = (); }; };
+		865E44301DC0F7670018D7BF /* BSNewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 865E442F1DC0F7670018D7BF /* BSNewController.m */; settings = {ASSET_TAGS = (); }; };
+		865E44331DC0F7840018D7BF /* BSFocusController.m in Sources */ = {isa = PBXBuildFile; fileRef = 865E44321DC0F7840018D7BF /* BSFocusController.m */; settings = {ASSET_TAGS = (); }; };
+		865E44361DC0F7B40018D7BF /* BSMineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 865E44351DC0F7B40018D7BF /* BSMineController.m */; settings = {ASSET_TAGS = (); }; };
 		86E1F4EF1DC0DB9E006AFE12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E1F4EE1DC0DB9E006AFE12 /* main.m */; };
-		86E1F4F21DC0DB9E006AFE12 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E1F4F11DC0DB9E006AFE12 /* AppDelegate.m */; };
-		86E1F4F51DC0DB9E006AFE12 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E1F4F41DC0DB9E006AFE12 /* ViewController.m */; };
-		86E1F4F81DC0DB9E006AFE12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86E1F4F61DC0DB9E006AFE12 /* Main.storyboard */; };
 		86E1F4FA1DC0DB9E006AFE12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86E1F4F91DC0DB9E006AFE12 /* Assets.xcassets */; };
-		86E1F4FD1DC0DB9E006AFE12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86E1F4FB1DC0DB9E006AFE12 /* LaunchScreen.storyboard */; };
 		86E1F5081DC0DB9E006AFE12 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E1F5071DC0DB9E006AFE12 /* _____Tests.m */; };
 		86E1F5131DC0DB9E006AFE12 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E1F5121DC0DB9E006AFE12 /* _____UITests.m */; };
 /* End PBXBuildFile section */
@@ -35,15 +38,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		865E44221DC0E2C80018D7BF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		865E44231DC0E2C80018D7BF /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		865E44251DC0E3620018D7BF /* BSMainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSMainTabBarController.h; sourceTree = "<group>"; };
+		865E44261DC0E3620018D7BF /* BSMainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSMainTabBarController.m; sourceTree = "<group>"; };
+		865E44281DC0E4430018D7BF /* BSMainNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSMainNavigationController.h; sourceTree = "<group>"; };
+		865E44291DC0E4430018D7BF /* BSMainNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSMainNavigationController.m; sourceTree = "<group>"; };
+		865E442B1DC0F7360018D7BF /* BSEssenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSEssenceController.h; sourceTree = "<group>"; };
+		865E442C1DC0F7360018D7BF /* BSEssenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSEssenceController.m; sourceTree = "<group>"; };
+		865E442E1DC0F7670018D7BF /* BSNewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSNewController.h; sourceTree = "<group>"; };
+		865E442F1DC0F7670018D7BF /* BSNewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSNewController.m; sourceTree = "<group>"; };
+		865E44311DC0F7840018D7BF /* BSFocusController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSFocusController.h; sourceTree = "<group>"; };
+		865E44321DC0F7840018D7BF /* BSFocusController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSFocusController.m; sourceTree = "<group>"; };
+		865E44341DC0F7B40018D7BF /* BSMineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSMineController.h; sourceTree = "<group>"; };
+		865E44351DC0F7B40018D7BF /* BSMineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSMineController.m; sourceTree = "<group>"; };
 		86E1F4EA1DC0DB9E006AFE12 /* 百思不得姐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思不得姐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		86E1F4EE1DC0DB9E006AFE12 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		86E1F4F01DC0DB9E006AFE12 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		86E1F4F11DC0DB9E006AFE12 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		86E1F4F31DC0DB9E006AFE12 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		86E1F4F41DC0DB9E006AFE12 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		86E1F4F71DC0DB9E006AFE12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		86E1F4F91DC0DB9E006AFE12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		86E1F4FC1DC0DB9E006AFE12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86E1F4FE1DC0DB9E006AFE12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86E1F5031DC0DB9E006AFE12 /* 百思不得姐Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百思不得姐Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		86E1F5071DC0DB9E006AFE12 /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
@@ -78,6 +89,235 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		865E44071DC0E1FB0018D7BF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				865E44081DC0E1FB0018D7BF /* Comment */,
+				865E440C1DC0E1FB0018D7BF /* Essence */,
+				865E44101DC0E1FB0018D7BF /* Focus */,
+				865E44141DC0E1FB0018D7BF /* Main */,
+				865E44181DC0E1FB0018D7BF /* Mine */,
+				865E441C1DC0E1FB0018D7BF /* New */,
+				865E44201DC0E1FB0018D7BF /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		865E44081DC0E1FB0018D7BF /* Comment */ = {
+			isa = PBXGroup;
+			children = (
+				865E44091DC0E1FB0018D7BF /* Controllers */,
+				865E440A1DC0E1FB0018D7BF /* Models */,
+				865E440B1DC0E1FB0018D7BF /* Views */,
+			);
+			path = Comment;
+			sourceTree = "<group>";
+		};
+		865E44091DC0E1FB0018D7BF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		865E440A1DC0E1FB0018D7BF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		865E440B1DC0E1FB0018D7BF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		865E440C1DC0E1FB0018D7BF /* Essence */ = {
+			isa = PBXGroup;
+			children = (
+				865E440D1DC0E1FB0018D7BF /* Controllers */,
+				865E440E1DC0E1FB0018D7BF /* Models */,
+				865E440F1DC0E1FB0018D7BF /* Views */,
+			);
+			path = Essence;
+			sourceTree = "<group>";
+		};
+		865E440D1DC0E1FB0018D7BF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				865E442B1DC0F7360018D7BF /* BSEssenceController.h */,
+				865E442C1DC0F7360018D7BF /* BSEssenceController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		865E440E1DC0E1FB0018D7BF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		865E440F1DC0E1FB0018D7BF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		865E44101DC0E1FB0018D7BF /* Focus */ = {
+			isa = PBXGroup;
+			children = (
+				865E44111DC0E1FB0018D7BF /* Controllers */,
+				865E44121DC0E1FB0018D7BF /* Models */,
+				865E44131DC0E1FB0018D7BF /* Views */,
+			);
+			path = Focus;
+			sourceTree = "<group>";
+		};
+		865E44111DC0E1FB0018D7BF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				865E44311DC0F7840018D7BF /* BSFocusController.h */,
+				865E44321DC0F7840018D7BF /* BSFocusController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		865E44121DC0E1FB0018D7BF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		865E44131DC0E1FB0018D7BF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		865E44141DC0E1FB0018D7BF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				865E44151DC0E1FB0018D7BF /* Controllers */,
+				865E44161DC0E1FB0018D7BF /* Models */,
+				865E44171DC0E1FB0018D7BF /* Views */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		865E44151DC0E1FB0018D7BF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				865E44251DC0E3620018D7BF /* BSMainTabBarController.h */,
+				865E44261DC0E3620018D7BF /* BSMainTabBarController.m */,
+				865E44281DC0E4430018D7BF /* BSMainNavigationController.h */,
+				865E44291DC0E4430018D7BF /* BSMainNavigationController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		865E44161DC0E1FB0018D7BF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		865E44171DC0E1FB0018D7BF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		865E44181DC0E1FB0018D7BF /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				865E44191DC0E1FB0018D7BF /* Controllers */,
+				865E441A1DC0E1FB0018D7BF /* Models */,
+				865E441B1DC0E1FB0018D7BF /* Views */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		865E44191DC0E1FB0018D7BF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				865E44341DC0F7B40018D7BF /* BSMineController.h */,
+				865E44351DC0F7B40018D7BF /* BSMineController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		865E441A1DC0E1FB0018D7BF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		865E441B1DC0E1FB0018D7BF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		865E441C1DC0E1FB0018D7BF /* New */ = {
+			isa = PBXGroup;
+			children = (
+				865E441D1DC0E1FB0018D7BF /* Controllers */,
+				865E441E1DC0E1FB0018D7BF /* Models */,
+				865E441F1DC0E1FB0018D7BF /* Views */,
+			);
+			path = New;
+			sourceTree = "<group>";
+		};
+		865E441D1DC0E1FB0018D7BF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				865E442E1DC0F7670018D7BF /* BSNewController.h */,
+				865E442F1DC0F7670018D7BF /* BSNewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		865E441E1DC0E1FB0018D7BF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		865E441F1DC0E1FB0018D7BF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		865E44201DC0E1FB0018D7BF /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		865E44211DC0E2440018D7BF /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				865E44221DC0E2C80018D7BF /* AppDelegate.h */,
+				865E44231DC0E2C80018D7BF /* AppDelegate.m */,
+			);
+			name = Others;
+			path = Classes/Others;
+			sourceTree = "<group>";
+		};
 		86E1F4E11DC0DB9E006AFE12 = {
 			isa = PBXGroup;
 			children = (
@@ -101,13 +341,9 @@
 		86E1F4EC1DC0DB9E006AFE12 /* 百思不得姐 */ = {
 			isa = PBXGroup;
 			children = (
-				86E1F4F01DC0DB9E006AFE12 /* AppDelegate.h */,
-				86E1F4F11DC0DB9E006AFE12 /* AppDelegate.m */,
-				86E1F4F31DC0DB9E006AFE12 /* ViewController.h */,
-				86E1F4F41DC0DB9E006AFE12 /* ViewController.m */,
-				86E1F4F61DC0DB9E006AFE12 /* Main.storyboard */,
+				865E44071DC0E1FB0018D7BF /* Classes */,
+				865E44211DC0E2440018D7BF /* Others */,
 				86E1F4F91DC0DB9E006AFE12 /* Assets.xcassets */,
-				86E1F4FB1DC0DB9E006AFE12 /* LaunchScreen.storyboard */,
 				86E1F4FE1DC0DB9E006AFE12 /* Info.plist */,
 				86E1F4ED1DC0DB9E006AFE12 /* Supporting Files */,
 			);
@@ -243,9 +479,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86E1F4FD1DC0DB9E006AFE12 /* LaunchScreen.storyboard in Resources */,
 				86E1F4FA1DC0DB9E006AFE12 /* Assets.xcassets in Resources */,
-				86E1F4F81DC0DB9E006AFE12 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +504,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86E1F4F51DC0DB9E006AFE12 /* ViewController.m in Sources */,
-				86E1F4F21DC0DB9E006AFE12 /* AppDelegate.m in Sources */,
+				865E442D1DC0F7360018D7BF /* BSEssenceController.m in Sources */,
+				865E44301DC0F7670018D7BF /* BSNewController.m in Sources */,
+				865E44271DC0E3620018D7BF /* BSMainTabBarController.m in Sources */,
+				865E442A1DC0E4430018D7BF /* BSMainNavigationController.m in Sources */,
 				86E1F4EF1DC0DB9E006AFE12 /* main.m in Sources */,
+				865E44331DC0F7840018D7BF /* BSFocusController.m in Sources */,
+				865E44241DC0E2C80018D7BF /* AppDelegate.m in Sources */,
+				865E44361DC0F7B40018D7BF /* BSMineController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,25 +545,6 @@
 			targetProxy = 86E1F50F1DC0DB9E006AFE12 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		86E1F4F61DC0DB9E006AFE12 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				86E1F4F71DC0DB9E006AFE12 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		86E1F4FB1DC0DB9E006AFE12 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				86E1F4FC1DC0DB9E006AFE12 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		86E1F5151DC0DB9E006AFE12 /* Debug */ = {
@@ -498,6 +718,7 @@
 				86E1F5191DC0DB9E006AFE12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86E1F51A1DC0DB9E006AFE12 /* Build configuration list for PBXNativeTarget "百思不得姐Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +727,7 @@
 				86E1F51C1DC0DB9E006AFE12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86E1F51D1DC0DB9E006AFE12 /* Build configuration list for PBXNativeTarget "百思不得姐UITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +736,7 @@
 				86E1F51F1DC0DB9E006AFE12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

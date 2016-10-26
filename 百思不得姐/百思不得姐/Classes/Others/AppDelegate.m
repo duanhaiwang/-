@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "BSMainTabBarController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    //1.设置windows
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = [[BSMainTabBarController alloc]init];
+    self.window.backgroundColor = [UIColor redColor];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
