@@ -14,6 +14,7 @@
 		865E44301DC0F7670018D7BF /* BSNewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 865E442F1DC0F7670018D7BF /* BSNewController.m */; settings = {ASSET_TAGS = (); }; };
 		865E44331DC0F7840018D7BF /* BSFocusController.m in Sources */ = {isa = PBXBuildFile; fileRef = 865E44321DC0F7840018D7BF /* BSFocusController.m */; settings = {ASSET_TAGS = (); }; };
 		865E44361DC0F7B40018D7BF /* BSMineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 865E44351DC0F7B40018D7BF /* BSMineController.m */; settings = {ASSET_TAGS = (); }; };
+		86B95E731DC1B3BA00CDF46C /* BSTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B95E721DC1B3BA00CDF46C /* BSTabBar.m */; settings = {ASSET_TAGS = (); }; };
 		86E1F4EF1DC0DB9E006AFE12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E1F4EE1DC0DB9E006AFE12 /* main.m */; };
 		86E1F4FA1DC0DB9E006AFE12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86E1F4F91DC0DB9E006AFE12 /* Assets.xcassets */; };
 		86E1F5081DC0DB9E006AFE12 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E1F5071DC0DB9E006AFE12 /* _____Tests.m */; };
@@ -52,6 +53,8 @@
 		865E44321DC0F7840018D7BF /* BSFocusController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSFocusController.m; sourceTree = "<group>"; };
 		865E44341DC0F7B40018D7BF /* BSMineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSMineController.h; sourceTree = "<group>"; };
 		865E44351DC0F7B40018D7BF /* BSMineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSMineController.m; sourceTree = "<group>"; };
+		86B95E711DC1B3BA00CDF46C /* BSTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSTabBar.h; sourceTree = "<group>"; };
+		86B95E721DC1B3BA00CDF46C /* BSTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSTabBar.m; sourceTree = "<group>"; };
 		86E1F4EA1DC0DB9E006AFE12 /* 百思不得姐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思不得姐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		86E1F4EE1DC0DB9E006AFE12 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		86E1F4F91DC0DB9E006AFE12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -231,6 +234,8 @@
 		865E44171DC0E1FB0018D7BF /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				86B95E711DC1B3BA00CDF46C /* BSTabBar.h */,
+				86B95E721DC1B3BA00CDF46C /* BSTabBar.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -504,6 +509,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86B95E731DC1B3BA00CDF46C /* BSTabBar.m in Sources */,
 				865E442D1DC0F7360018D7BF /* BSEssenceController.m in Sources */,
 				865E44301DC0F7670018D7BF /* BSNewController.m in Sources */,
 				865E44271DC0E3620018D7BF /* BSMainTabBarController.m in Sources */,

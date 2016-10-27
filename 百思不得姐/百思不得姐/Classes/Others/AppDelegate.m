@@ -20,7 +20,6 @@
     //1.设置windows
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     self.window.rootViewController = [[BSMainTabBarController alloc]init];
-    self.window.backgroundColor = [UIColor redColor];
     [self.window makeKeyAndVisible];
     
     return YES;
