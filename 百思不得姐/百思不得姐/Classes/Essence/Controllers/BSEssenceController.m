@@ -7,28 +7,74 @@
 //
 
 #import "BSEssenceController.h"
-
+#import "UIBarButtonItem+BS.h"
 @interface BSEssenceController ()
 
 @end
 
 @implementation BSEssenceController
-
+#pragma mark -设置控件
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    //1.设置导航栏
+    [self setUpNav];
+    //2.添加childrenControllerView
+    [self setChildreController];
+    //3.设置ScrollView
+    [self setScrollView];
+   
 }
+
+//设置导航栏
+-(void)setUpNav
+{
+    //标题
+    self.navigationItem.titleView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"MainTitle"]];
+    //左边
+    if(self.navigationItem.leftBarButtonItem == nil)
+    {
+        self.navigationItem.leftBarButtonItem = [UIBarButtonItem initWithImage:[UIImage imageNamed:@"MainTagSubIcon"] hightlightImage:[UIImage imageNamed:@"MainTagSubIconClick"] target:self action:@selector(leftTagClick)];
+        
+    }
+    
+    //右边
+    if(self.navigationItem.rightBarButtonItem == nil)
+    {
+        self.navigationItem.rightBarButtonItem = [UIBarButtonItem initWithImage:[UIImage imageNamed:@"MainTagSubIcon"] hightlightImage:[UIImage imageNamed:@"MainTagSubIconClick"] target:self action:@selector(rightTagClick)];
+
+    }
+}
+//添加childrenControllerView
+-(void)setChildreController
+{
+    
+    
+}
+//设置ScrollView
+-(void)setScrollView
+{
+    
+}
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+#pragma mark -设置数据
+#pragma mark -设置方法
+//navigation 左边按钮点击事件
+-(void)leftTagClick
+{
+    
+}
+//navigation 右边按钮点击事件
+-(void)rightTagClick
+{
+    
+}
+#pragma mark -设置代理方法
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {

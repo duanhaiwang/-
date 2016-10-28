@@ -13,25 +13,50 @@
 @end
 
 @implementation BSMainNavigationController
+#pragma mark -设置控件
 
++(void)initialize
+{
+    //设置导航栏主题（主题包括背景和文字属性）
+    [self setupNavTheme];
+    //设置导航栏按钮主题
+    [self setupNavButtionItemTheme];
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }
+//设置导航栏主题（主题包括背景和文字属性）
++(void)setupNavTheme
+{
+    
+    UINavigationBar *navBar = [UINavigationBar appearance];
+    NSMutableDictionary *navDic = [NSMutableDictionary dictionary];
+    navDic[NSFontAttributeName] = [UIFont systemFontOfSize:20];
+    navDic[NSForegroundColorAttributeName] = [UIColor colorWithPatternImage:[UIImage imageNamed:@"navigationbarBackgroundWhite"]];
+//    navDic[NSForegroundColorAttributeName] = [UIColor blackColor];
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    [navBar setTitleTextAttributes:navDic];
+ 
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+//设置导航栏按钮主题
++(void)setupNavButtionItemTheme
+{
+    UIBarButtonItem *item = [UIBarButtonItem appearance];
+    //设置正常状态下文字属性
+    NSMutableDictionary *dictNormal = [NSMutableDictionary dictionary];
+    dictNormal[NSFontAttributeName] = [UIFont systemFontOfSize:14];
+//    dictNormal[NSForegroundColorAttributeName] = [UIColor colorWithPatternImage:[UIImage imageNamed:@"navigationbarBackgroundWhite"]];
+    [item setTitleTextAttributes:dictNormal forState:UIControlStateNormal];
+    
+    
+    NSMutableDictionary *dictHighlighted = [NSMutableDictionary dictionary];
+    dictHighlighted[NSFontAttributeName] = [UIFont systemFontOfSize:14];
+//    dictHighlighted[NSForegroundColorAttributeName] = [UIColor orangeColor];
+    [item setTitleTextAttributes:dictHighlighted forState:UIControlStateHighlighted];
 }
-*/
+#pragma mark -设置数据
+#pragma mark -设置方法
+#pragma mark -设置代理方法
 
 @end
