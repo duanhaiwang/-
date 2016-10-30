@@ -65,7 +65,7 @@
     focus.view.backgroundColor = [UIColor grayColor];
     [self setupViewController:focus title:@"关注" icon:@"tabBar_friendTrends_icon" selectIcon:@"tabBar_friendTrends_click_icon" tag:2];
     //4.我的控制器
-    BSEssenceController *mine = [[BSEssenceController alloc]init];
+    BSMineController *mine = [[BSMineController alloc]init];
     mine.view.backgroundColor = [UIColor blueColor];
     [self setupViewController:mine title:@"我的" icon:@"tabBar_me_icon" selectIcon:@"tabBar_me_click_icon" tag:3];
 }

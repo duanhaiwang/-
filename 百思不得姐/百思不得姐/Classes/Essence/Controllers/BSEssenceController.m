@@ -16,8 +16,6 @@
 #pragma mark -设置控件
 - (void)viewDidLoad {
     [super viewDidLoad];
-    //1.设置导航栏
-    [self setUpNav];
     //2.添加childrenControllerView
     [self setChildreController];
     //3.设置ScrollView
@@ -28,8 +26,10 @@
 //设置导航栏
 -(void)setUpNav
 {
+    [super setUpNav];
+    
     //标题
-    self.navigationItem.titleView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"MainTitle"]];
+//    self.navigationItem.titleView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"MainTitle"]];
     //左边
     if(self.navigationItem.leftBarButtonItem == nil)
     {

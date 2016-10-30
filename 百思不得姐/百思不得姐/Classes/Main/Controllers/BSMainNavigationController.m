@@ -24,7 +24,8 @@
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    //设置导航栏主题背景
+    [self.navigationBar setBackgroundImage:[UIImage imageNamed:@"navigationbarBackgroundWhite"] forBarMetrics:UIBarMetricsDefault];
 }
 //设置导航栏主题（主题包括背景和文字属性）
 +(void)setupNavTheme
@@ -33,11 +34,11 @@
     UINavigationBar *navBar = [UINavigationBar appearance];
     NSMutableDictionary *navDic = [NSMutableDictionary dictionary];
     navDic[NSFontAttributeName] = [UIFont systemFontOfSize:20];
-    navDic[NSForegroundColorAttributeName] = [UIColor colorWithPatternImage:[UIImage imageNamed:@"navigationbarBackgroundWhite"]];
-//    navDic[NSForegroundColorAttributeName] = [UIColor blackColor];
+//    navDic[NSForegroundColorAttributeName] = [UIColor colorWithPatternImage:[UIImage imageNamed:@"navigationbarBackgroundWhite"]];
+    navDic[NSForegroundColorAttributeName] = [UIColor blackColor];
 
     [navBar setTitleTextAttributes:navDic];
- 
+    
 }
 //设置导航栏按钮主题
 +(void)setupNavButtionItemTheme
@@ -46,7 +47,7 @@
     //设置正常状态下文字属性
     NSMutableDictionary *dictNormal = [NSMutableDictionary dictionary];
     dictNormal[NSFontAttributeName] = [UIFont systemFontOfSize:14];
-//    dictNormal[NSForegroundColorAttributeName] = [UIColor colorWithPatternImage:[UIImage imageNamed:@"navigationbarBackgroundWhite"]];
+    dictNormal[NSForegroundColorAttributeName] = [UIColor blackColor];
     [item setTitleTextAttributes:dictNormal forState:UIControlStateNormal];
     
     

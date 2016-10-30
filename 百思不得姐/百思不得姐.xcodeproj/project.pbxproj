@@ -14,6 +14,8 @@
 		865E44301DC0F7670018D7BF /* BSNewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 865E442F1DC0F7670018D7BF /* BSNewController.m */; settings = {ASSET_TAGS = (); }; };
 		865E44331DC0F7840018D7BF /* BSFocusController.m in Sources */ = {isa = PBXBuildFile; fileRef = 865E44321DC0F7840018D7BF /* BSFocusController.m */; settings = {ASSET_TAGS = (); }; };
 		865E44361DC0F7B40018D7BF /* BSMineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 865E44351DC0F7B40018D7BF /* BSMineController.m */; settings = {ASSET_TAGS = (); }; };
+		866B620B1DC616DD006E81E5 /* BSMainContentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 866B620A1DC616DD006E81E5 /* BSMainContentController.m */; settings = {ASSET_TAGS = (); }; };
+		866B620E1DC63CD8006E81E5 /* BSFocusRecommendController.m in Sources */ = {isa = PBXBuildFile; fileRef = 866B620D1DC63CD8006E81E5 /* BSFocusRecommendController.m */; settings = {ASSET_TAGS = (); }; };
 		8675811A1DC3791400AF91E2 /* UIBarButtonItem+BS.m in Sources */ = {isa = PBXBuildFile; fileRef = 867581191DC3791400AF91E2 /* UIBarButtonItem+BS.m */; settings = {ASSET_TAGS = (); }; };
 		867581211DC3944C00AF91E2 /* BSVideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 867581201DC3944C00AF91E2 /* BSVideoController.m */; settings = {ASSET_TAGS = (); }; };
 		867581241DC3947700AF91E2 /* BSRecommendController.m in Sources */ = {isa = PBXBuildFile; fileRef = 867581231DC3947700AF91E2 /* BSRecommendController.m */; settings = {ASSET_TAGS = (); }; };
@@ -57,6 +59,10 @@
 		865E44321DC0F7840018D7BF /* BSFocusController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSFocusController.m; sourceTree = "<group>"; };
 		865E44341DC0F7B40018D7BF /* BSMineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSMineController.h; sourceTree = "<group>"; };
 		865E44351DC0F7B40018D7BF /* BSMineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSMineController.m; sourceTree = "<group>"; };
+		866B62091DC616DD006E81E5 /* BSMainContentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSMainContentController.h; sourceTree = "<group>"; };
+		866B620A1DC616DD006E81E5 /* BSMainContentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSMainContentController.m; sourceTree = "<group>"; };
+		866B620C1DC63CD8006E81E5 /* BSFocusRecommendController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSFocusRecommendController.h; sourceTree = "<group>"; };
+		866B620D1DC63CD8006E81E5 /* BSFocusRecommendController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSFocusRecommendController.m; sourceTree = "<group>"; };
 		867581181DC3791400AF91E2 /* UIBarButtonItem+BS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+BS.h"; sourceTree = "<group>"; };
 		867581191DC3791400AF91E2 /* UIBarButtonItem+BS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+BS.m"; sourceTree = "<group>"; };
 		8675811F1DC3944C00AF91E2 /* BSVideoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSVideoController.h; sourceTree = "<group>"; };
@@ -198,6 +204,8 @@
 			children = (
 				865E44311DC0F7840018D7BF /* BSFocusController.h */,
 				865E44321DC0F7840018D7BF /* BSFocusController.m */,
+				866B620C1DC63CD8006E81E5 /* BSFocusRecommendController.h */,
+				866B620D1DC63CD8006E81E5 /* BSFocusRecommendController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -234,6 +242,8 @@
 				865E44261DC0E3620018D7BF /* BSMainTabBarController.m */,
 				865E44281DC0E4430018D7BF /* BSMainNavigationController.h */,
 				865E44291DC0E4430018D7BF /* BSMainNavigationController.m */,
+				866B62091DC616DD006E81E5 /* BSMainContentController.h */,
+				866B620A1DC616DD006E81E5 /* BSMainContentController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -564,6 +574,8 @@
 				865E44241DC0E2C80018D7BF /* AppDelegate.m in Sources */,
 				867581271DC3949300AF91E2 /* BSPictureController.m in Sources */,
 				867581241DC3947700AF91E2 /* BSRecommendController.m in Sources */,
+				866B620B1DC616DD006E81E5 /* BSMainContentController.m in Sources */,
+				866B620E1DC63CD8006E81E5 /* BSFocusRecommendController.m in Sources */,
 				867581211DC3944C00AF91E2 /* BSVideoController.m in Sources */,
 				865E44361DC0F7B40018D7BF /* BSMineController.m in Sources */,
 			);

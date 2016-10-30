@@ -7,31 +7,41 @@
 //
 
 #import "BSMineController.h"
-
+#import "UIBarButtonItem+BS.h"
 @interface BSMineController ()
 
 @end
 
 @implementation BSMineController
-
+#pragma mark -设置控件
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    //1.设置导航栏
+    [self setUpNav];
+}
+-(void)setUpNav
+{
+    //标题
+    self.navigationItem.title = @"我的";
+    //右边
+    UIBarButtonItem *setting = [UIBarButtonItem initWithImage:[UIImage imageNamed:@"mine-setting-icon"] hightlightImage:[UIImage imageNamed:@"mine-setting-icon-click"] target:self action:@selector(setting)];
+    UIBarButtonItem *moon = [UIBarButtonItem initWithImage:[UIImage imageNamed:@"mine-moon-icon"] hightlightImage:[UIImage imageNamed:@"mine-moon-icon-click"] target:self action:@selector(moon)];
+    self.navigationItem.rightBarButtonItems = @[setting, moon];
+        
+    
+  
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+#pragma mark -设置数据
+#pragma mark -设置方法
+-(void)setting
+{
+    
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+-(void)moon
+{
+    
 }
-*/
+#pragma mark -设置代理方法
 
 @end

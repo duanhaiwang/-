@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface BSNewController : UITableViewController
+#import "BSMainContentController.h"
+@interface BSNewController : BSMainContentController
 
 @end
