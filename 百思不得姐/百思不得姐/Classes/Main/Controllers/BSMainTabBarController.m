@@ -62,7 +62,7 @@
     [self setupViewController:new title:@"新帖" icon:@"tabBar_new_icon" selectIcon:@"tabBar_new_click_icon" tag:1];
     //3.关注控制器
     BSFocusController *focus = [[BSFocusController alloc]init];
-    focus.view.backgroundColor = [UIColor grayColor];
+    //focus.view.backgroundColor = [UIColor grayColor];
     [self setupViewController:focus title:@"关注" icon:@"tabBar_friendTrends_icon" selectIcon:@"tabBar_friendTrends_click_icon" tag:2];
     //4.我的控制器
     BSMineController *mine = [[BSMineController alloc]init];
