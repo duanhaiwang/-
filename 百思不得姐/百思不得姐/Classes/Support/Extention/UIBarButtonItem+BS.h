@@ -10,5 +10,5 @@
 
 @interface UIBarButtonItem (BS)
 //初始化UINavigationItem
-+(UIBarButtonItem *)initWithImage:(UIImage *)image hightlightImage:(UIImage *)highlightImage target:(id)target action:(SEL)action;
++(UIBarButtonItem *)itemWithImage:(UIImage *)image hightlightImage:(UIImage *)highlightImage target:(id)target action:(SEL)action;
 @end

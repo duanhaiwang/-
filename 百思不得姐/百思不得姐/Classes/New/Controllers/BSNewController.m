@@ -24,9 +24,9 @@
 {
     [super setUpNav];
     //左边
-    self.navigationItem.leftBarButtonItem = [UIBarButtonItem initWithImage:[UIImage imageNamed:@"MainTagSubIcon"] hightlightImage:[UIImage imageNamed:@"MainTagSubIconClick"] target:self action:@selector(leftTagClick)];
+    self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImage:[UIImage imageNamed:@"MainTagSubIcon"] hightlightImage:[UIImage imageNamed:@"MainTagSubIconClick"] target:self action:@selector(leftTagClick)];
     //右边
-    self.navigationItem.rightBarButtonItem = [UIBarButtonItem initWithImage:[UIImage imageNamed:@"MainTagSubIcon"] hightlightImage:[UIImage imageNamed:@"MainTagSubIconClick"] target:self action:@selector(rightTagClick)];
+    self.navigationItem.rightBarButtonItem = [UIBarButtonItem itemWithImage:[UIImage imageNamed:@"MainTagSubIcon"] hightlightImage:[UIImage imageNamed:@"MainTagSubIconClick"] target:self action:@selector(rightTagClick)];
 }
 
 

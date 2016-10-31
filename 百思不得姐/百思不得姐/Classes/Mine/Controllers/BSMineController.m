@@ -8,6 +8,7 @@
 
 #import "BSMineController.h"
 #import "UIBarButtonItem+BS.h"
+#import "BSSettingController.h"
 @interface BSMineController ()
 
 @end
@@ -24,8 +25,8 @@
     //标题
     self.navigationItem.title = @"我的";
     //右边
-    UIBarButtonItem *setting = [UIBarButtonItem initWithImage:[UIImage imageNamed:@"mine-setting-icon"] hightlightImage:[UIImage imageNamed:@"mine-setting-icon-click"] target:self action:@selector(setting)];
-    UIBarButtonItem *moon = [UIBarButtonItem initWithImage:[UIImage imageNamed:@"mine-moon-icon"] hightlightImage:[UIImage imageNamed:@"mine-moon-icon-click"] target:self action:@selector(moon)];
+    UIBarButtonItem *setting = [UIBarButtonItem itemWithImage:[UIImage imageNamed:@"mine-setting-icon"] hightlightImage:[UIImage imageNamed:@"mine-setting-icon-click"] target:self action:@selector(setting)];
+    UIBarButtonItem *moon = [UIBarButtonItem itemWithImage:[UIImage imageNamed:@"mine-moon-icon"] hightlightImage:[UIImage imageNamed:@"mine-moon-icon-click"] target:self action:@selector(moon)];
     self.navigationItem.rightBarButtonItems = @[setting, moon];
         
     
@@ -36,7 +37,8 @@
 #pragma mark -设置方法
 -(void)setting
 {
-    
+    BSSettingController *setting = [[BSSettingController alloc]init];
+    [self.navigationController pushViewController:setting animated:YES];
 }
 -(void)moon
 {

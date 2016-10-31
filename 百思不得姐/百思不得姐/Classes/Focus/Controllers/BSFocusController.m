@@ -26,14 +26,15 @@
     //标题
     self.navigationItem.title = @"关注";
     //左边
-    self.navigationItem.leftBarButtonItem = [UIBarButtonItem initWithImage:[UIImage imageNamed:@"friendsRecommentIcon"] hightlightImage:[UIImage imageNamed:@"friendsRecommentIcon-click"] target:self action:@selector(recomment)];
+    self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImage:[UIImage imageNamed:@"friendsRecommentIcon"] hightlightImage:[UIImage imageNamed:@"friendsRecommentIcon-click"] target:self action:@selector(recomment)];
     
 }
+
 //navigation 左边按钮点击事件
 -(void)recomment
 {
+    
     BSFocusRecommendController *recommend = [[BSFocusRecommendController alloc]init];
-    recommend.hidesBottomBarWhenPushed = YES;
     [self.navigationController pushViewController:recommend animated:YES];
 }
 

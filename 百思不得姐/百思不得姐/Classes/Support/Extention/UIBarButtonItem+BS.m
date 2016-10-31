@@ -10,7 +10,7 @@
 
 @implementation UIBarButtonItem (BS)
 //初始化UINavigationItem
-+(UIBarButtonItem *)initWithImage:(UIImage *)image hightlightImage:(UIImage *)highlightImage target:(id)target action:(SEL)action
++(UIBarButtonItem *)itemWithImage:(UIImage *)image hightlightImage:(UIImage *)highlightImage target:(id)target action:(SEL)action
 {
     UIButton *btn = [[UIButton alloc]init];
     [btn setImage:image forState:UIControlStateNormal];

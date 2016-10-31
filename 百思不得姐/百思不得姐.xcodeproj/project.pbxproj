@@ -20,6 +20,8 @@
 		867581211DC3944C00AF91E2 /* BSVideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 867581201DC3944C00AF91E2 /* BSVideoController.m */; settings = {ASSET_TAGS = (); }; };
 		867581241DC3947700AF91E2 /* BSRecommendController.m in Sources */ = {isa = PBXBuildFile; fileRef = 867581231DC3947700AF91E2 /* BSRecommendController.m */; settings = {ASSET_TAGS = (); }; };
 		867581271DC3949300AF91E2 /* BSPictureController.m in Sources */ = {isa = PBXBuildFile; fileRef = 867581261DC3949300AF91E2 /* BSPictureController.m */; settings = {ASSET_TAGS = (); }; };
+		867C073F1DC6EF71006EC9BA /* BSSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 867C073E1DC6EF71006EC9BA /* BSSettingController.m */; settings = {ASSET_TAGS = (); }; };
+		867C07421DC6F140006EC9BA /* UIButton+BS.m in Sources */ = {isa = PBXBuildFile; fileRef = 867C07411DC6F140006EC9BA /* UIButton+BS.m */; settings = {ASSET_TAGS = (); }; };
 		86B95E731DC1B3BA00CDF46C /* BSTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B95E721DC1B3BA00CDF46C /* BSTabBar.m */; settings = {ASSET_TAGS = (); }; };
 		86E1F4EF1DC0DB9E006AFE12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E1F4EE1DC0DB9E006AFE12 /* main.m */; };
 		86E1F4FA1DC0DB9E006AFE12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86E1F4F91DC0DB9E006AFE12 /* Assets.xcassets */; };
@@ -71,6 +73,10 @@
 		867581231DC3947700AF91E2 /* BSRecommendController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSRecommendController.m; sourceTree = "<group>"; };
 		867581251DC3949300AF91E2 /* BSPictureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSPictureController.h; sourceTree = "<group>"; };
 		867581261DC3949300AF91E2 /* BSPictureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSPictureController.m; sourceTree = "<group>"; };
+		867C073D1DC6EF71006EC9BA /* BSSettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSSettingController.h; sourceTree = "<group>"; };
+		867C073E1DC6EF71006EC9BA /* BSSettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSSettingController.m; sourceTree = "<group>"; };
+		867C07401DC6F140006EC9BA /* UIButton+BS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+BS.h"; sourceTree = "<group>"; };
+		867C07411DC6F140006EC9BA /* UIButton+BS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+BS.m"; sourceTree = "<group>"; };
 		86B95E711DC1B3BA00CDF46C /* BSTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSTabBar.h; sourceTree = "<group>"; };
 		86B95E721DC1B3BA00CDF46C /* BSTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSTabBar.m; sourceTree = "<group>"; };
 		86E1F4EA1DC0DB9E006AFE12 /* 百思不得姐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思不得姐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -279,6 +285,8 @@
 			children = (
 				865E44341DC0F7B40018D7BF /* BSMineController.h */,
 				865E44351DC0F7B40018D7BF /* BSMineController.m */,
+				867C073D1DC6EF71006EC9BA /* BSSettingController.h */,
+				867C073E1DC6EF71006EC9BA /* BSSettingController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -360,6 +368,8 @@
 			children = (
 				867581181DC3791400AF91E2 /* UIBarButtonItem+BS.h */,
 				867581191DC3791400AF91E2 /* UIBarButtonItem+BS.m */,
+				867C07401DC6F140006EC9BA /* UIButton+BS.h */,
+				867C07411DC6F140006EC9BA /* UIButton+BS.m */,
 			);
 			path = Extention;
 			sourceTree = "<group>";
@@ -570,6 +580,8 @@
 				865E442A1DC0E4430018D7BF /* BSMainNavigationController.m in Sources */,
 				86E1F4EF1DC0DB9E006AFE12 /* main.m in Sources */,
 				865E44331DC0F7840018D7BF /* BSFocusController.m in Sources */,
+				867C073F1DC6EF71006EC9BA /* BSSettingController.m in Sources */,
+				867C07421DC6F140006EC9BA /* UIButton+BS.m in Sources */,
 				8675811A1DC3791400AF91E2 /* UIBarButtonItem+BS.m in Sources */,
 				865E44241DC0E2C80018D7BF /* AppDelegate.m in Sources */,
 				867581271DC3949300AF91E2 /* BSPictureController.m in Sources */,
