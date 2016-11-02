@@ -12,14 +12,17 @@
 
 -(void)awakeFromNib
 {
-//    self.imageView.contentMode = UIViewContentModeCenter;
-//    self.titleLabel.
-//    self.imageView.backgroundColor = [UIColor redColor];
-//    self.titleLabel.textColor = [UIColor greenColor];
+//    self.titleLabel.textAlignment = NSTextAlignmentCenter;
 }
 -(void)layoutSubviews
 {
     [super layoutSubviews];
+    //重新调整按钮内部位置
+    CGFloat centerX = self.frame.size.width;
+    CGFloat centerY = self.frame.size.height;
+    self.imageView.center = CGPointMake(centerX * 0.5, centerY * 0.3);
+    self.titleLabel.center = CGPointMake(centerX * 0.5, CGRectGetMaxY(self.imageView.frame) + self.titleLabel.frame.size.height);
+   
     
 }
 @end

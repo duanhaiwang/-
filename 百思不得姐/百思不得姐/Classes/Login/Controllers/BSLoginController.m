@@ -9,29 +9,48 @@
 #import "BSLoginController.h"
 
 @interface BSLoginController ()
-
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *leftMargin;
 @end
 
 @implementation BSLoginController
-
+#pragma mark -设置控件
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+   
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+#pragma mark -设置数据
+#pragma mark -设置事件方法
+//返回键点击事件
+- (IBAction)back {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+//状态栏变为白色
+-(UIStatusBarStyle)preferredStatusBarStyle
+{
+    return UIStatusBarStyleLightContent;
+}
+//注册按钮点击事件
+- (IBAction)RegisteredAccount:(UIButton *)btn {
+    //1.推出键盘
+    [self.view endEditing:YES];
+    //2.根据当前的状态判断点击事件
+    if (self.leftMargin.constant == 0) {//表明为登录界面
+        self.leftMargin.constant = -self.view.frame.size.width;
+        btn.selected = YES;
+    }else//表明为注册界面
+    {
+        self.leftMargin.constant = 0;
+        btn.selected = NO;
+    }
+    //3.动画显示
+//    [UIView animateWithDuration:0.2 animations:^{
+//        [self.view layoutIfNeeded];
+//    }];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
+#pragma mark -设置代理方法
 
 @end

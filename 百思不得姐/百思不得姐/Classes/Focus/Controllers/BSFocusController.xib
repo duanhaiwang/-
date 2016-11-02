@@ -21,31 +21,33 @@
                         <constraint firstAttribute="width" constant="48" id="zqO-fM-BVa"/>
                     </constraints>
                 </imageView>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oWA-Ka-T2T">
-                    <rect key="frame" x="179" y="441" width="243" height="48"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="48" id="bzM-PE-ccE"/>
-                        <constraint firstAttribute="width" constant="243" id="mab-dh-6FN"/>
-                    </constraints>
-                    <state key="normal" title="立即登录注册" backgroundImage="friendsTrend_login">
-                        <color key="titleColor" red="1" green="0.082809412344690525" blue="0.091408629248978079" alpha="1" colorSpace="calibratedRGB"/>
-                    </state>
-                    <state key="highlighted" backgroundImage="friendsTrend_login_click">
-                        <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
-                    </state>
-                    <connections>
-                        <action selector="loginBtnClick" destination="-1" eventType="touchUpInside" id="Bkp-5u-ml3"/>
-                    </connections>
-                </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UBe-QA-VlE" userLabel="说明文字">
                     <rect key="frame" x="183" y="269" width="235" height="61"/>
                     <string key="text">快快登录吧，关注百思最in牛人
 好友动态让你过把瘾儿~
 欧耶~~~！</string>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oWA-Ka-T2T">
+                    <rect key="frame" x="178" y="441" width="245" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="bzM-PE-ccE"/>
+                        <constraint firstAttribute="width" constant="245" id="mab-dh-6FN"/>
+                    </constraints>
+                    <state key="normal" title="立即登录注册" backgroundImage="friendsTrend_login">
+                        <color key="titleColor" red="1" green="0.082809412339999999" blue="0.091408629249999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted" backgroundImage="friendsTrend_login_click">
+                        <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="loginBtnClick" destination="-1" eventType="touchUpInside" id="Bkp-5u-ml3"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
