@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8603FBB61DCCC5CC00663186 /* UIBarButtonItem+BS.m in Sources */ = {isa = PBXBuildFile; fileRef = 8603FBB31DCCC5CC00663186 /* UIBarButtonItem+BS.m */; settings = {ASSET_TAGS = (); }; };
+		8603FBB71DCCC5CC00663186 /* UIButton+BS.m in Sources */ = {isa = PBXBuildFile; fileRef = 8603FBB51DCCC5CC00663186 /* UIButton+BS.m */; settings = {ASSET_TAGS = (); }; };
+		8603FBBA1DCCC62500663186 /* BSLoginTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 8603FBB91DCCC62500663186 /* BSLoginTextField.m */; settings = {ASSET_TAGS = (); }; };
+		8603FBBD1DCCC79800663186 /* UITextField+BS.m in Sources */ = {isa = PBXBuildFile; fileRef = 8603FBBC1DCCC79800663186 /* UITextField+BS.m */; settings = {ASSET_TAGS = (); }; };
 		865E44241DC0E2C80018D7BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 865E44231DC0E2C80018D7BF /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
 		865E44271DC0E3620018D7BF /* BSMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 865E44261DC0E3620018D7BF /* BSMainTabBarController.m */; settings = {ASSET_TAGS = (); }; };
 		865E442A1DC0E4430018D7BF /* BSMainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 865E44291DC0E4430018D7BF /* BSMainNavigationController.m */; settings = {ASSET_TAGS = (); }; };
@@ -16,12 +20,10 @@
 		865E44361DC0F7B40018D7BF /* BSMineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 865E44351DC0F7B40018D7BF /* BSMineController.m */; settings = {ASSET_TAGS = (); }; };
 		866B620B1DC616DD006E81E5 /* BSMainContentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 866B620A1DC616DD006E81E5 /* BSMainContentController.m */; settings = {ASSET_TAGS = (); }; };
 		866B620E1DC63CD8006E81E5 /* BSFocusRecommendController.m in Sources */ = {isa = PBXBuildFile; fileRef = 866B620D1DC63CD8006E81E5 /* BSFocusRecommendController.m */; settings = {ASSET_TAGS = (); }; };
-		8675811A1DC3791400AF91E2 /* UIBarButtonItem+BS.m in Sources */ = {isa = PBXBuildFile; fileRef = 867581191DC3791400AF91E2 /* UIBarButtonItem+BS.m */; settings = {ASSET_TAGS = (); }; };
 		867581211DC3944C00AF91E2 /* BSVideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 867581201DC3944C00AF91E2 /* BSVideoController.m */; settings = {ASSET_TAGS = (); }; };
 		867581241DC3947700AF91E2 /* BSRecommendController.m in Sources */ = {isa = PBXBuildFile; fileRef = 867581231DC3947700AF91E2 /* BSRecommendController.m */; settings = {ASSET_TAGS = (); }; };
 		867581271DC3949300AF91E2 /* BSPictureController.m in Sources */ = {isa = PBXBuildFile; fileRef = 867581261DC3949300AF91E2 /* BSPictureController.m */; settings = {ASSET_TAGS = (); }; };
 		867C073F1DC6EF71006EC9BA /* BSSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 867C073E1DC6EF71006EC9BA /* BSSettingController.m */; settings = {ASSET_TAGS = (); }; };
-		867C07421DC6F140006EC9BA /* UIButton+BS.m in Sources */ = {isa = PBXBuildFile; fileRef = 867C07411DC6F140006EC9BA /* UIButton+BS.m */; settings = {ASSET_TAGS = (); }; };
 		867C07441DC730EB006EC9BA /* BSFocusController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 867C07431DC730EB006EC9BA /* BSFocusController.xib */; settings = {ASSET_TAGS = (); }; };
 		867C074C1DC78575006EC9BA /* BSLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 867C074A1DC78575006EC9BA /* BSLoginController.m */; settings = {ASSET_TAGS = (); }; };
 		867C074D1DC78575006EC9BA /* BSLoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 867C074B1DC78575006EC9BA /* BSLoginController.xib */; settings = {ASSET_TAGS = (); }; };
@@ -51,6 +53,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8603FBB21DCCC5CC00663186 /* UIBarButtonItem+BS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+BS.h"; sourceTree = "<group>"; };
+		8603FBB31DCCC5CC00663186 /* UIBarButtonItem+BS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+BS.m"; sourceTree = "<group>"; };
+		8603FBB41DCCC5CC00663186 /* UIButton+BS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+BS.h"; sourceTree = "<group>"; };
+		8603FBB51DCCC5CC00663186 /* UIButton+BS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+BS.m"; sourceTree = "<group>"; };
+		8603FBB81DCCC62500663186 /* BSLoginTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSLoginTextField.h; sourceTree = "<group>"; };
+		8603FBB91DCCC62500663186 /* BSLoginTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSLoginTextField.m; sourceTree = "<group>"; };
+		8603FBBB1DCCC79800663186 /* UITextField+BS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+BS.h"; sourceTree = "<group>"; };
+		8603FBBC1DCCC79800663186 /* UITextField+BS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+BS.m"; sourceTree = "<group>"; };
 		865E44221DC0E2C80018D7BF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		865E44231DC0E2C80018D7BF /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		865E44251DC0E3620018D7BF /* BSMainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSMainTabBarController.h; sourceTree = "<group>"; };
@@ -69,8 +79,6 @@
 		866B620A1DC616DD006E81E5 /* BSMainContentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSMainContentController.m; sourceTree = "<group>"; };
 		866B620C1DC63CD8006E81E5 /* BSFocusRecommendController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSFocusRecommendController.h; sourceTree = "<group>"; };
 		866B620D1DC63CD8006E81E5 /* BSFocusRecommendController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSFocusRecommendController.m; sourceTree = "<group>"; };
-		867581181DC3791400AF91E2 /* UIBarButtonItem+BS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+BS.h"; sourceTree = "<group>"; };
-		867581191DC3791400AF91E2 /* UIBarButtonItem+BS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+BS.m"; sourceTree = "<group>"; };
 		8675811F1DC3944C00AF91E2 /* BSVideoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSVideoController.h; sourceTree = "<group>"; };
 		867581201DC3944C00AF91E2 /* BSVideoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSVideoController.m; sourceTree = "<group>"; };
 		867581221DC3947700AF91E2 /* BSRecommendController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSRecommendController.h; sourceTree = "<group>"; };
@@ -79,8 +87,6 @@
 		867581261DC3949300AF91E2 /* BSPictureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSPictureController.m; sourceTree = "<group>"; };
 		867C073D1DC6EF71006EC9BA /* BSSettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSSettingController.h; sourceTree = "<group>"; };
 		867C073E1DC6EF71006EC9BA /* BSSettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSSettingController.m; sourceTree = "<group>"; };
-		867C07401DC6F140006EC9BA /* UIButton+BS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+BS.h"; sourceTree = "<group>"; };
-		867C07411DC6F140006EC9BA /* UIButton+BS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+BS.m"; sourceTree = "<group>"; };
 		867C07431DC730EB006EC9BA /* BSFocusController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSFocusController.xib; sourceTree = "<group>"; };
 		867C07491DC78575006EC9BA /* BSLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSLoginController.h; sourceTree = "<group>"; };
 		867C074A1DC78575006EC9BA /* BSLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSLoginController.m; sourceTree = "<group>"; };
@@ -126,6 +132,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8603FBB11DCCC5CC00663186 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				8603FBB21DCCC5CC00663186 /* UIBarButtonItem+BS.h */,
+				8603FBB31DCCC5CC00663186 /* UIBarButtonItem+BS.m */,
+				8603FBB41DCCC5CC00663186 /* UIButton+BS.h */,
+				8603FBB51DCCC5CC00663186 /* UIButton+BS.m */,
+				8603FBBB1DCCC79800663186 /* UITextField+BS.h */,
+				8603FBBC1DCCC79800663186 /* UITextField+BS.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		865E44071DC0E1FB0018D7BF /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -370,6 +389,7 @@
 		867581161DC378BB00AF91E2 /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				8603FBB11DCCC5CC00663186 /* Category */,
 				867581171DC378BB00AF91E2 /* Extention */,
 			);
 			path = Support;
@@ -378,10 +398,6 @@
 		867581171DC378BB00AF91E2 /* Extention */ = {
 			isa = PBXGroup;
 			children = (
-				867581181DC3791400AF91E2 /* UIBarButtonItem+BS.h */,
-				867581191DC3791400AF91E2 /* UIBarButtonItem+BS.m */,
-				867C07401DC6F140006EC9BA /* UIButton+BS.h */,
-				867C07411DC6F140006EC9BA /* UIButton+BS.m */,
 			);
 			path = Extention;
 			sourceTree = "<group>";
@@ -431,6 +447,8 @@
 			children = (
 				867C074E1DC78F60006EC9BA /* BSLoginBtn.h */,
 				867C074F1DC78F60006EC9BA /* BSLoginBtn.m */,
+				8603FBB81DCCC62500663186 /* BSLoginTextField.h */,
+				8603FBB91DCCC62500663186 /* BSLoginTextField.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -624,17 +642,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				86B95E731DC1B3BA00CDF46C /* BSTabBar.m in Sources */,
+				8603FBB61DCCC5CC00663186 /* UIBarButtonItem+BS.m in Sources */,
 				865E442D1DC0F7360018D7BF /* BSEssenceController.m in Sources */,
 				865E44301DC0F7670018D7BF /* BSNewController.m in Sources */,
 				865E44271DC0E3620018D7BF /* BSMainTabBarController.m in Sources */,
 				865E442A1DC0E4430018D7BF /* BSMainNavigationController.m in Sources */,
 				86E1F4EF1DC0DB9E006AFE12 /* main.m in Sources */,
 				865E44331DC0F7840018D7BF /* BSFocusController.m in Sources */,
+				8603FBBA1DCCC62500663186 /* BSLoginTextField.m in Sources */,
+				8603FBBD1DCCC79800663186 /* UITextField+BS.m in Sources */,
 				867C073F1DC6EF71006EC9BA /* BSSettingController.m in Sources */,
-				867C07421DC6F140006EC9BA /* UIButton+BS.m in Sources */,
-				8675811A1DC3791400AF91E2 /* UIBarButtonItem+BS.m in Sources */,
 				867C07501DC78F60006EC9BA /* BSLoginBtn.m in Sources */,
 				865E44241DC0E2C80018D7BF /* AppDelegate.m in Sources */,
+				8603FBB71DCCC5CC00663186 /* UIButton+BS.m in Sources */,
 				867581271DC3949300AF91E2 /* BSPictureController.m in Sources */,
 				867581241DC3947700AF91E2 /* BSRecommendController.m in Sources */,
 				866B620B1DC616DD006E81E5 /* BSMainContentController.m in Sources */,

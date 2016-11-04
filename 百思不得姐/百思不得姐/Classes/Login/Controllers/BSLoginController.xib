@@ -139,14 +139,7 @@
                                 <constraint firstAttribute="height" constant="100" id="hjO-QG-URc"/>
                             </constraints>
                         </imageView>
-                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" placeholder="  手机号" minimumFontSize="17" background="login_rgister_textfield_bg" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Teo-dW-b2M" userLabel="手机号">
-                            <rect key="frame" x="175" y="0.0" width="255" height="50"/>
-                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                            <textInputTraits key="textInputTraits"/>
-                        </textField>
-                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="  密码" textAlignment="natural" minimumFontSize="17" background="login_rgister_textfield_bg" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="E0M-dv-ASJ" userLabel="密码">
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="  密码" textAlignment="natural" minimumFontSize="17" background="login_rgister_textfield_bg" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="E0M-dv-ASJ" userLabel="密码" customClass="BSLoginTextField">
                             <rect key="frame" x="175" y="50" width="255" height="50"/>
                             <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -179,6 +172,13 @@
                                 <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
                         </button>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" placeholder="  手机号" minimumFontSize="17" background="login_rgister_textfield_bg" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Teo-dW-b2M" userLabel="手机号" customClass="BSLoginTextField">
+                            <rect key="frame" x="175" y="0.0" width="255" height="50"/>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
                     </subviews>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <constraints>
@@ -211,14 +211,14 @@
                                 <constraint firstAttribute="width" constant="260" id="nPf-Pc-Xgk"/>
                             </constraints>
                         </imageView>
-                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="  注册手机号" textAlignment="natural" minimumFontSize="17" background="login_rgister_textfield_bg" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="vo7-ZT-H4G" userLabel="注册手机号">
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="  注册手机号" textAlignment="natural" minimumFontSize="17" background="login_rgister_textfield_bg" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="vo7-ZT-H4G" userLabel="注册手机号" customClass="BSLoginTextField">
                             <rect key="frame" x="175" y="0.0" width="255" height="50"/>
                             <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <textInputTraits key="textInputTraits"/>
                         </textField>
-                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="  注册密码" textAlignment="natural" minimumFontSize="17" background="login_rgister_textfield_bg" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="YzQ-w6-ru7" userLabel="注册密码">
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="  注册密码" textAlignment="natural" minimumFontSize="17" background="login_rgister_textfield_bg" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="YzQ-w6-ru7" userLabel="注册密码" customClass="BSLoginTextField">
                             <rect key="frame" x="175" y="50" width="255" height="50"/>
                             <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
